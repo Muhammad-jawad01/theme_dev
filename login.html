@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <title>login page </title>
+</head>
+
+<body>
+    <div class="row p-0 m-0 justify-content-center align-items-center vh-100 login_bg">
+        <div class="col-4">
+            <h1 class="text-white text-center">Login</h1>
+            <form action="login.php" method="post">
+                <div class="mb-3">
+                    <label for="username" class="form-label text-white">Username:</label>
+                    <input type="text" class="form-control login_input" id="username" name="username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label text-white">Password:</label>
+                    <input type="password" class="form-control login_input" id="password" name="password" required>
+                </div>
+                <div class="row mb-3">
+                    <div class="col text-start">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+                            <label class="form-check-label text-white" for="rememberMe">Remember Me</label>
+                        </div>
+                    </div>
+                    <div class="col text-end">
+                        <a href="forgot_password.html" class="text-white">Forgot Password?</a>
+                    </div>
+                </div>
+                <!-- register new user -->
+                <div class="row mb-3">
+                    <div class="col-8 text-start">
+                        <p class="text-white">Don't have an account? <a href="register.html"
+                                class="text-primary">Register here</a></p>
+                    </div>
+                    <div class="col text-end">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
