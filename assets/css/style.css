@@ -14,17 +14,17 @@
 
 .sidebar {
   /* gradient */
-  background: linear-gradient(to bottom, #3c6739, #2ef1c1);
-}
+   background: linear-gradient(to bottom, #3c6739, #2ef1c1); 
+} 
 
 .nav-link {
   color: white !important;
 }
 
 .nav-link:hover {
-  color: #2ef1c1 !important;
+  color: #08c0e5 !important;
 }
 .nav-link.active {
-  background-color: rgba(31, 221, 41, 0.2) !important;
+  background-color: rgba(31, 186, 221, 0.2) !important;
   border-radius: 5px;
 }
